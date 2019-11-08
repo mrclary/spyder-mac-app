@@ -27,7 +27,7 @@
 	<key>CFBundleName</key>
 	<string>Spyder</string>
 	<key>CFBundleIconFile</key>
-	<string>spyder</string>
+	<string>spyder.icns</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -555,6 +555,8 @@
 			<string>Editor</string>
 			<key>CFBundleTypeName</key>
 			<string>Python</string>
+            <key>CFBundleIconFile</key>
+            <string>python-mat.icns</string>
 			<key>CFBundleTypeExtensions</key>
 			<array>
 				<string>py</string>
