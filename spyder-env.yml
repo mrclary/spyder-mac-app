@@ -1,0 +1,11 @@
+# To create the environment:
+#   $ conda env create --file <this file>
+#
+# To use the environment:
+#   $ source activate spyder-beta
+###############################################################################
+name: spyder-env
+channels:
+  - defaults
+dependencies:
+  - spyder
