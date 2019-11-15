@@ -17,11 +17,13 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>3.3.6</string>
+	<string>4.0.0rc1</string>
 	<key>CFBundleVersion</key>
-	<string>3.3.6</string>
+	<string>4.0.0rc1</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.spyderide.spyder</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
 	<key>CFBundleDisplayName</key>
 	<string>Spyder</string>
 	<key>CFBundleName</key>

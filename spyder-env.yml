@@ -4,8 +4,9 @@
 # To use the environment:
 #   $ source activate spyder-beta
 ###############################################################################
-name: spyder-env
+name: spyder-beta
 channels:
+  - spyder-ide
   - defaults
 dependencies:
   - spyder
