@@ -5,4 +5,4 @@ channels:
 dependencies:
   - ipykernel >= 5.1.3
   - pyqt
-  - spyder-kernels = 0
+  - spyder-kernels >= 1.8

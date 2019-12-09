@@ -3,7 +3,8 @@ import sys
 
 if 'anaconda' in sys.executable:
     # user intends to use anaconda environment...
-    os.environ.update({'PATH': os.path.dirname(sys.executable) + ':' + os.environ['PATH'],
-                       'CONDA_PREFIX': sys.exec_prefix})
+    path = os.environ['PATH'].split(':')
+    path[0] = os.path.dirname(sys.executable)  # replace spyder-env path with anaconda environment path
+    os.environ.update({'PATH': ':'.join(path), 'CONDA_PREFIX': sys.exec_prefix})
 
-del os, sys
+del os, sys, path
